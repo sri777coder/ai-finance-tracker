@@ -4,7 +4,7 @@ python-multipart
 sqlalchemy
 python-jose[cryptography]
 bcrypt==4.0.1
-pandas
+pandas==2.2.0
 numpy
 scikit-learn
 torch
