@@ -1,18 +1,18 @@
-# Secret files - NEVER commit these
+# Secret files
 .env
 *.env
 
-# Python virtual environments - too large
+# Python virtual environments
 venv/
 __pycache__/
 *.pyc
 *.pyo
 
-# Database file - contains real user data
+# Database file
 *.db
 *.sqlite
 
-# Node modules - too large (reinstalled via npm install)
+# Node modules
 node_modules/
 
 # Build output
@@ -25,11 +25,7 @@ build/
 # Mac files
 .DS_Store
 
-# Model files - too large for GitHub
-*.pkl
-*.pt
-
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
 # Temp files
